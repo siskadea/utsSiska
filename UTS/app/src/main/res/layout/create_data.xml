@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data Pesanan"
+        android:textSize="23sp"
+        android:ems="25"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/pemesan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Nama Pemesan" />
+
+    <EditText
+        android:id="@+id/nama_barang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:inputType="text"
+        android:hint="Nama Barang"
+        android:ems="10" />
+
+
+
+    <requestFocus />
+<EditText
+android:id="@+id/jumlah_barang"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginTop="15dp"
+android:inputType="text"
+android:hint="Jumlah Barang"
+android:ems="10" >
+
+<requestFocus />
+</EditText>
+<EditText
+android:id="@+id/harga_barang"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginTop="15dp"
+android:inputType="number"
+android:hint="Harga Barang"
+android:ems="10" >
+
+<requestFocus />
+</EditText>
+
+    <Button
+        android:id="@+id/buttom_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pesan" />
+
+
+
+
+</LinearLayout>

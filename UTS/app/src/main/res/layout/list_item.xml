@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_marginBottom="5dp">
+
+    <ImageView
+        android:id="@+id/list_img"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="0dp"
+        android:background="#4AF5F0F0"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp" />
+
+    <TextView
+        android:id="@+id/list_brand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_toEndOf="@id/list_img"
+        android:text="Brand"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@id/list_img" />
+
+    <TextView
+        android:id="@+id/list_ket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="128dp"
+        android:layout_marginBottom="21dp"
+        android:text="Keterangan"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="128dp" />
+
+</RelativeLayout>

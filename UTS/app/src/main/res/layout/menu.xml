@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    >
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="174dp"
+        android:layout_height="153dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="103dp"
+        app:srcCompat="@drawable/z" />
+
+    <TextView
+        android:id="@+id/nama_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="171dp"
+        android:text="@string/nama_app"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button_koleksi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nama_app"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="37dp"
+        android:text="@string/tombol_koleksi" />
+
+    <Button
+        android:id="@+id/button_tambah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_koleksi"
+        android:layout_alignStart="@+id/button_koleksi"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="13dp"
+        android:text="@string/tombol_tambah" />
+
+    <Button
+        android:id="@+id/button_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_tambah"
+        android:layout_alignStart="@+id/button_koleksi"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="9dp"
+        android:text="@string/tombol_lihat" />
+
+    <Button
+        android:id="@+id/button_ig"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_tambah"
+        android:layout_alignStart="@+id/button_view"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="70dp"
+        android:text="KUNJUNGI KAMI" />
+
+
+</RelativeLayout>
